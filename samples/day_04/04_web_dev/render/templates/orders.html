@@ -1,0 +1,9 @@
+<h1>Orders for: {{ area }}</h1>
+
+{% if area == "metro" %}
+<p>These are high-priority city orders.</p>
+{% elif area == "rural" %}
+<p>Allow extra time for rural delivery.</p>
+{% else %}
+<p>Unknown delivery zone.</p>
+{% endif %}
