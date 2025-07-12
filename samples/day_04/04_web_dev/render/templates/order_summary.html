@@ -1,0 +1,17 @@
+<h1>Order Summary</h1>
+
+<p><strong>Customer:</strong> {{ order.customer }}</p>
+<p><strong>Address:</strong> {{ order.address }}</p>
+
+<h3>Items Ordered:</h3>
+<ul>
+    {% for item in order.choices %}
+    <li>{{ item }}</li>
+    {% endfor %}
+</ul>
+
+{% if order.special_notes %}
+<p><strong>Notes:</strong> {{ order.special_notes }}</p>
+{% else %}
+<p>No special instructions.</p>
+{% endif %}
