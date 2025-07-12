@@ -7,6 +7,7 @@ class Employee:
         print(f"Employee {self.name} created with ID {self.id}")
 
     def add_work(self, task):
+        print(f"Added work {task} to {self.name}")
         return self.tasks.append(task)
 
 employee1 = Employee("Richard", "1234")
@@ -17,9 +18,6 @@ print("Employee 2 Name:", employee2.name)
 
 employee1.add_work("Create Slides")
 employee1.add_work("Present report")
-
-print("Employee 1 Tasks:", employee1.tasks)
-print("Employee 2 Tasks:", employee2.tasks)
 
 
 

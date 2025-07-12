@@ -11,15 +11,15 @@ class Employee:
 
 class Recruiter(Employee):
     def recruit(self):
-        print("Recruiting...")
+        self.add_work("Recruit")
 
 class Developer(Employee):
     def code(self):
-        print("Coding...")
+        self.add_work("Code")
 
 class Manager(Employee):
     def manage(self):
-        print("managing...")
+        self.add_work("Manage")
 
 employee1 = Recruiter("Richard", "1234")
 employee2 = Developer("Jelly", "9876")
