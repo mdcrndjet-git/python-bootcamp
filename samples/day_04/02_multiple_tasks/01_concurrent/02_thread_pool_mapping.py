@@ -15,5 +15,5 @@ if __name__ == '__main__':
     with ThreadPoolExecutor() as executor:
         outputs = executor.map(fetch_url, inputs)
 
-        end_time = time.time()
-        print(end_time - start_time)
+    end_time = time.time()
+    print(end_time - start_time)
