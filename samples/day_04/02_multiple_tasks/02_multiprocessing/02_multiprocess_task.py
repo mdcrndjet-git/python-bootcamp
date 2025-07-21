@@ -3,13 +3,13 @@ import time
 
 
 def process(number):
-    return number * 1_000_000 ** 1_000_000
-
+    time.sleep(number)
+    print("Finished")
 
 if __name__ == "__main__":
     start_time = time.time()
 
-    inputs = [1, 2, 3]
+    inputs = [5, 10, 15]
     with Pool() as pool:
         outputs = pool.map(process, inputs)
 

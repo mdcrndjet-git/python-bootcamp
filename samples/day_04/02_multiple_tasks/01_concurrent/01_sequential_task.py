@@ -12,8 +12,7 @@ inputs = ['https://httpbin.org/delay/5', 'https://httpbin.org/delay/7']
 if __name__ == '__main__':
     start_time = time.time()
 
-    with ThreadPoolExecutor() as executor:
-        outputs = executor.map(fetch_url, inputs)
+    outputs = [fetch_url(url) for url in inputs]
 
     end_time = time.time()
     print(end_time - start_time)

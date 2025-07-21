@@ -1,36 +1,81 @@
-"""
-Card Game - War
+class Card:
+    """Represents a playing card with a suit and rank."""
 
-In this lab session, you will simulate a simple card game called "War" between two players using a deck of 52 cards.
-The game will involve drawing cards from the top of the deck, comparing their values, and determining the winner of each round.
-The game ends when all cards have been drawn, and the player with the most rounds won is declared the overall winner.
+    def __init__(self, suit: str, rank: str):
+        self.suit = suit  # e.g. "Hearts"
+        self.rank = rank  # e.g. "K", "10", "A"
 
-Step 1: Deck Setup
-------------------
-- The game starts by creating a standard deck of 52 cards.
-- The deck is shuffled and divided equally between the two players, giving each player 26 cards.
+    def value(self) -> int:
+        """
+        Returns the numeric value of the card.
+        TODO: Map ranks to values. 2-10 = 2-10, J = 11, Q = 12, K = 13, A = 14
+        """
+        pass
 
-Step 2: Card Comparison
-------------------------
-- In each round, both players draw the top card from their deck.
-- The value of the card is determined by its rank (e.g., 2 is the lowest, Ace is the highest).
-- The player with the higher card wins the round and earns one point.
-- If both players draw cards of the same rank, the round is a tie, and no points are awarded.
+    def __str__(self) -> str:
+        """Returns string representation like 'A of Spades'."""
+        return f"{self.rank} of {self.suit}"
 
-Step 3: Game Loop
------------------
-- The game continues for 26 rounds (the number of cards in each player’s deck).
-- Each round, players compare the cards they draw, update their scores, and proceed to the next round.
 
-Step 4: End of Game
--------------------
-- After all 26 rounds have been completed, the game ends.
-- The player with the most points is declared the winner.
-- If the points are tied, the game ends in a draw.
+class Deck:
+    """Represents a standard 52-card deck."""
 
-Optional Enhancements
-----------------------
-- Implement a "battle" feature where, if both players draw the same card, they each draw 3 additional cards to break the tie.
-- Add a feature to display the current scores after each round.
-- Allow the game to be saved and loaded from a file, enabling players to resume the game later.
-"""
+    def __init__(self):
+        self.cards: list = []  # list of Card objects
+        self._create_deck()
+
+    def _create_deck(self) -> None:
+        """
+        Populates the deck with 52 cards.
+        TODO: Create cards for all combinations of 4 suits and 13 ranks.
+        """
+        pass
+
+    def shuffle(self) -> None:
+        """Randomly shuffles the deck."""
+        # TODO: Shuffle self.cards
+        pass
+
+    def split(self) -> tuple:
+        """
+        Splits the deck into two halves.
+        Returns:
+            (list, list): Two lists of Card objects
+        """
+        pass
+
+
+def play_round(card1: Card, card2: Card) -> int:
+    """
+    Compares two cards and determines the winner.
+    Returns:
+        1 if card1 wins
+        2 if card2 wins
+        0 if tie
+    TODO: Compare using value()
+    """
+    pass
+
+
+def play_game(deck1: list, deck2: list) -> None:
+    """
+    Main game loop. Runs 26 rounds and tracks score.
+    TODO: Loop over both decks, compare cards, update scores, and print result.
+    """
+    pass
+
+
+def main() -> None:
+    """
+    Game entry point.
+    TODO:
+    - Create deck
+    - Shuffle
+    - Split into two decks
+    - Run play_game
+    """
+    pass
+
+
+if __name__ == "__main__":
+    main()

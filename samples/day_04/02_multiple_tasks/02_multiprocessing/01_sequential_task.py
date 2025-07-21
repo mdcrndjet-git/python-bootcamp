@@ -2,13 +2,14 @@ import time
 
 
 def process(number):
-    return number * 1_000_000 ** 1_000_000
+    time.sleep(10)
+    print("Finished")
 
 
 if __name__ == "__main__":
     start_time = time.time()
 
-    inputs = [1, 2, 3]
+    inputs = [5, 10, 15]
     outputs = [process(number) for number in inputs]
 
     end_time = time.time()
