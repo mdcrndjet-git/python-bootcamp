@@ -1,5 +1,5 @@
 """
-🧺 Simple Shopping List App (Flask Session Edition)
+Simple Shopping List App (Flask Session Edition)
 
 This exercise guides you through creating a basic shopping list web app using Flask.
 Users will be able to:
@@ -9,8 +9,8 @@ Users will be able to:
 You will store the data inside the Flask session so it persists during the user's session.
 No database required.
 
-🚫 Don't use global variables.
-✅ Do everything using session, form handling, and template rendering.
+Don't use global variables.
+Do everything using session, form handling, and template rendering.
 """
 
 from flask import Flask

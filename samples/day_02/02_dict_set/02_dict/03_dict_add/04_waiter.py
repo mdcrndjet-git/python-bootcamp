@@ -6,5 +6,5 @@ while order:
 
 # Record the person’s order
 # If the order already exist, just add the count
-
+    order = input("Enter order: ")
 print(orders)
