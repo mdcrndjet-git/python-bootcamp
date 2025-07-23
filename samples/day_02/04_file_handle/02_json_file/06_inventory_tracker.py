@@ -22,7 +22,7 @@ def save(inventory, filepath):
     """Save the inventory (list[dict]) to a filepath"""
 
 
-def load(inventory, filepath):
+def load(filepath):
     """Return a list[dict] from a filepath"""
 
 

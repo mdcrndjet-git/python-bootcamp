@@ -1,7 +1,7 @@
 speed = float(input("Download Speed (Mbps): "))
 file_size = int(input("File Size (MB): "))
 
-# MegaBytes per second (MBps) = 8 * Megabits per second (Mbps)
+# MegaBytes per second (MBps) = Megabits per second (Mbps) / 8
 download_speed_MBps = None
 
 # Download Time (seconds) = File Size (MB) / MegaBytes per second (MBps)
