@@ -1,6 +1,6 @@
-from concurrent.futures import ThreadPoolExecutor
-import requests
 import time
+
+import requests
 
 
 def check_website(url):
@@ -19,7 +19,7 @@ file_name = "bensooter/URLchecker/master/top-1000-websites.txt"
 response = requests.get(base_url + file_name)
 
 websites = response.text.splitlines()
-websites = [site.strip() for site in websites if site.strip()]
+websites = ["https://" + site.strip() for site in websites if site.strip()]
 websites = websites[:100]  # Limit to 100 for brevity
 
 if __name__ == '__main__':
