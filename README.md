@@ -154,7 +154,7 @@ Then open the folder in your preferred editor.
 ### Interactive Practice
 
 - [Exercism Python Track](https://exercism.org/tracks/python)
-- [HackerRank – 10 Days of Python](https://www.hackerrank.com/domains/tutorials/10-days-of-python)
+- [HackerRank Easy Problems](https://www.hackerrank.com/domains/python?filters%5Bdifficulty%5D%5B%5D=easy)
 - [LeetCode Beginner Problems](https://leetcode.com/problemset/all/?difficulty=Easy)
 
 ## What's Next
@@ -183,12 +183,10 @@ These aren't covered in-depth during the bootcamp but are excellent next steps.
 
 These beginner/intermediate projects are great for practice:
 
-- [Simple Snake Game](https://github.com/rajatdiptabiswas/snake-game) — loops, conditions, graphics
-- [To-Do List CLI App](https://github.com/Avik-Jain/100-Days-Of-ML-Code/blob/master/Code/Day%201%20-%20Todo%20List.py) —
-  file I/O
-- [Tkinter Calculator](https://github.com/Code-Bullet/Tkinter-Calculator) — GUI layout and logic
-- [Expense Tracker](https://github.com/melanieshi0120/Personal-Budget-Manager) — data structures and persistence
-- [Flask Blog App](https://github.com/CoreyMSchafer/code_snippets/tree/master/Python/Flask_Blog) — web development
+- [Pygame Tutorial](https://github.com/techwithtim/Pygame-Tutorials)
+- [Tkinter Collection](https://github.com/Aashishkumar123/Python-GUI-Project
+- [Flask Blog App](https://github.com/CoreyMSchafer/code_snippets/tree/master/Python/Flask_Blog)
+- [Other Mini Projects](https://github.com/Python-World/python-mini-projects)
 
 ## Feedback & Issues
 
