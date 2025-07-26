@@ -31,8 +31,6 @@ By the end of the course, you should be able to:
 4. Review the labs or projects to apply what you've learned
 5. Check your solution with the given solution and look for improvements
 
----
-
 ## Pacing
 
 The material is designed for a **4-day bootcamp**:
@@ -47,8 +45,6 @@ For absolute beginners, a **2-week pace** is recommended:
 
 > You can also do both: finish the bootcamp at full speed, then revisit everything slowly with real-world projects.
 
----
-
 ## Course Outline
 
 Each day contains slide decks, code samples, hands-on exercises, and lab activities.
@@ -59,8 +55,6 @@ Each day contains slide decks, code samples, hands-on exercises, and lab activit
 | **Day 2** | Lists, tuples, dictionaries, sets, comprehension, strings, file handling   |
 | **Day 3** | Classes, object-oriented programming principles, GUI programming (tkinter) |
 | **Day 4** | Modules, libraries, best practices, web development introduction           |
-
----
 
 ## Getting Started
 
@@ -76,8 +70,6 @@ Each day contains slide decks, code samples, hands-on exercises, and lab activit
     - While any editor works (VS Code, Sublime, etc.), all examples here are aligned with PyCharm for consistency.
 
 ### Console Essentials (Optional)
-
----
 
 ### Running Python
 
@@ -101,8 +93,6 @@ python
 python3
 ```
 
----
-
 ### Package Management
 
 To avoid version conflicts, create a virtual environment:
@@ -118,8 +108,6 @@ Then install packages as needed:
 ```bash
 pip install flask
 ```
-
----
 
 ### Clone the Repository
 
@@ -142,15 +130,11 @@ git clone https://github.com/Ayumu098/python-bootcamp.git
 
 Then open the folder in your preferred editor.
 
----
-
 ## Prerequisites
 
 - Basic computer skills (navigating folders, installing software)
 - Curiosity, patience, and a willingness to learn by doing
 - No prior programming experience needed
-
----
 
 ## External Materials & Further Reading
 
@@ -173,8 +157,6 @@ Then open the folder in your preferred editor.
 - [HackerRank – 10 Days of Python](https://www.hackerrank.com/domains/tutorials/10-days-of-python)
 - [LeetCode Beginner Problems](https://leetcode.com/problemset/all/?difficulty=Easy)
 
----
-
 ## What's Next
 
 After completing this bootcamp, try:
@@ -184,8 +166,6 @@ After completing this bootcamp, try:
 - Contributing to a
   beginner-friendly [open-source project](https://github.com/search?q=label%3Agood-first-issue&type=issues)
 - Exploring specializations: data science, web dev, game dev, automation
-
----
 
 ### Bonus Content
 
@@ -199,8 +179,6 @@ See the [Bonus Slides](https://github.com/Ayumu098/python-bootcamp/blob/master/s
 
 These aren't covered in-depth during the bootcamp but are excellent next steps.
 
----
-
 ### Sample Projects to Explore
 
 These beginner/intermediate projects are great for practice:
@@ -212,16 +190,12 @@ These beginner/intermediate projects are great for practice:
 - [Expense Tracker](https://github.com/melanieshi0120/Personal-Budget-Manager) — data structures and persistence
 - [Flask Blog App](https://github.com/CoreyMSchafer/code_snippets/tree/master/Python/Flask_Blog) — web development
 
----
-
 ## Feedback & Issues
 
 If you encounter any bugs or have suggestions for improvement, feel free
 to [open an issue](https://github.com/Ayumu098/python-bootcamp/issues).
 
 Forking and adapting this repo for your own training sessions or learning goals is encouraged.
-
----
 
 ## Final Note
 
@@ -234,8 +208,6 @@ skills you can build — not just for your career, but for your confidence.
 If you make it through, even once, you're already ahead of most people.
 
 Good luck and happy coding
-
----
 
 ## License
 
