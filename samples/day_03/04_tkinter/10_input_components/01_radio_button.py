@@ -12,5 +12,3 @@ root, text="Option B", variable=radio_var, value="Option B")
 radio2.pack()
 
 root.mainloop()
-
-
