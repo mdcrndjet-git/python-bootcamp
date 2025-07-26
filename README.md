@@ -184,7 +184,7 @@ These aren't covered in-depth during the bootcamp but are excellent next steps.
 These beginner/intermediate projects are great for practice:
 
 - [Pygame Tutorial](https://github.com/techwithtim/Pygame-Tutorials)
-- [Tkinter Collection](https://github.com/Aashishkumar123/Python-GUI-Project
+- [Tkinter Collection](https://github.com/Aashishkumar123/Python-GUI-Project)
 - [Flask Blog App](https://github.com/CoreyMSchafer/code_snippets/tree/master/Python/Flask_Blog)
 - [Other Mini Projects](https://github.com/Python-World/python-mini-projects)
 
