@@ -1,0 +1,10 @@
+message = " Hello World"
+print(message.isspace())
+print(message.isalpha())
+print(message.isnumeric())
+print(message.lower())
+print(message.islower())
+print(message.upper())
+print(message.isupper())
+print(message.title())
+print(message.swapcase())
