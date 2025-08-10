@@ -1,0 +1,16 @@
+<h1>Hobby Page</h1>
+<p>Here are my favorite activities outside work</p>
+
+<!--<ul>
+    <li>Chess</li>
+    <li>Scrabble</li>
+    <li>Walk</li>
+</ul>-->
+
+<ul>
+    {% for hobby in hobbies %}
+    <li>Hobby {{loop.index}}: {{ hobby }}</li>
+    {% endfor %}
+</ul>
+
+<a href="/">Go Back</a>

@@ -1,0 +1,26 @@
+<h1>Food Page</h1>
+<p>This is my ranking for best pambara at panulak.</p>
+
+<!--<ol>
+    {% for food in foods %}
+    <li>{{ food }}</li>
+    {% endfor %}
+</ol>-->
+
+<ul>
+    <li>Pambara</li>
+    <ol>
+        {% for food in foods.pambara %}
+        <li>{{ food }}</li>
+        {% endfor %}
+    </ol>
+    <li>Panulak</li>
+    <ol>
+        {% for food in foods.panulak %}
+        <li>{{ food }}</li>
+        {% endfor %}
+    </ol>
+</ul>
+
+
+<a href="/">Go Back</a>

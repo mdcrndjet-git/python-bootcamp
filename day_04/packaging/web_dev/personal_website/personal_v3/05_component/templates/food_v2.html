@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block title %}Food Opinion{% endblock %}
+
+{% block content %}
+
+<h1>Food Page</h1>
+<p>This is my ranking for best pambara at panulak.</p>
+
+<ul>
+    <li>Pambara</li>
+    <ol>
+        {% for food in foods.pambara %}
+        <li>{{ food }}</li>
+        {% endfor %}
+    </ol>
+    <li>Panulak</li>
+    <ol>
+        {% for food in foods.panulak %}
+        <li>{{ food }}</li>
+        {% endfor %}
+    </ol>
+</ul>
+
+{% endblock %}

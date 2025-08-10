@@ -1,13 +1,14 @@
 import requests
 
-# Send a GET joke_request to a free joke API
+# Send request
 site = "https://official-joke-api.appspot.com/random_joke"
 response = requests.get(site)
 
-# Check if the joke_request was successful
 if response.status_code == 200:
+    print("Success")
+
     joke = response.json()
     print(joke['setup'])
     print(joke['punchline'])
 else:
-    print("Failed. Server said:", response.status_code)
+    print("Error occurred: ",response.status_code)
